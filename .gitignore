@@ -1,0 +1,18 @@
+# Signing keys and local-only working files
+_private/
+__pycache__/
+
+# Third-party base mod (623 MB) - a dependency, not part of this repo.
+# Subscribe to it separately on the Steam Workshop.
+BaseMod/
+
+# Temporary config dumps produced while inspecting the base mod
+_tmp_*.bin
+
+# Stray binary accidentally created in the repo root
+powershell.exe
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store

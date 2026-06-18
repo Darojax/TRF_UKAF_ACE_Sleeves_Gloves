@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="[TRF] UKAF ACE Sleeves and Gloves">
+    <Package name="Main">
+        <Container name="Actions">
+            <Key ID="STR_TRF_UKAF_ACE_SG_ROOT">
+                <Original>Sleeves and Gloves</Original>
+                <English>Sleeves and Gloves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_REMOVE_GLOVES">
+                <Original>Remove gloves</Original>
+                <English>Remove gloves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_PUT_ON_GLOVES">
+                <Original>Put on gloves</Original>
+                <English>Put on gloves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SLEEVE_FULL">
+                <Original>Full Sleeves</Original>
+                <English>Full Sleeves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SLEEVE_HALF">
+                <Original>Hero Sleeves</Original>
+                <English>Hero Sleeves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SLEEVE_ROLLED">
+                <Original>Rolled Sleeves</Original>
+                <English>Rolled Sleeves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_PROGRESS_REMOVING_GLOVES">
+                <Original>Removing gloves...</Original>
+                <English>Removing gloves...</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_PROGRESS_PUTTING_ON_GLOVES">
+                <Original>Putting on gloves...</Original>
+                <English>Putting on gloves...</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_PROGRESS_ROLLING_SLEEVES">
+                <Original>Rolling sleeves...</Original>
+                <English>Rolling sleeves...</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_PROGRESS_UNROLLING_SLEEVES">
+                <Original>Unrolling sleeves...</Original>
+                <English>Unrolling sleeves...</English>
+            </Key>
+        </Container>
+        <Container name="Settings">
+            <Key ID="STR_TRF_UKAF_ACE_SG_CATEGORY">
+                <Original>[TRF] UKAF ACE Sleeves and Gloves</Original>
+                <English>[TRF] UKAF ACE Sleeves and Gloves</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SUBCATEGORY_TIMINGS">
+                <Original>Timings</Original>
+                <English>Timings</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SUBCATEGORY_FAMILIES">
+                <Original>Uniform Families</Original>
+                <English>Uniform Families</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SUBCATEGORY_AUDIO">
+                <Original>Audio</Original>
+                <English>Audio</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_GLOVE_DURATION">
+                <Original>Glove Toggle Duration</Original>
+                <English>Glove Toggle Duration</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_GLOVE_DURATION_DESC">
+                <Original>Time in seconds for putting on or removing gloves.</Original>
+                <English>Time in seconds for putting on or removing gloves.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_SLEEVE_STEP_DURATION">
+                <Original>Sleeve Step Duration</Original>
+                <English>Sleeve Step Duration</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_SLEEVE_STEP_DURATION_DESC">
+                <Original>Time in seconds for one sleeve step. Multi-step transitions multiply this value.</Original>
+                <English>Time in seconds for one sleeve step. Multi-step transitions multiply this value.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_PCS">
+                <Original>Enable PCS Uniforms</Original>
+                <English>Enable PCS Uniforms</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_PCS_DESC">
+                <Original>Show sleeve and glove controls for UKAF PCS uniforms.</Original>
+                <English>Show sleeve and glove controls for UKAF PCS uniforms.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_PCU">
+                <Original>Enable PCU Uniforms</Original>
+                <English>Enable PCU Uniforms</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_PCU_DESC">
+                <Original>Show glove controls for UKAF PCU uniforms.</Original>
+                <English>Show glove controls for UKAF PCU uniforms.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_CRYE_G4">
+                <Original>Enable Crye G4 Uniforms</Original>
+                <English>Enable Crye G4 Uniforms</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_CRYE_G4_DESC">
+                <Original>Show sleeve controls for UKAF SFSG Crye G4 uniforms.</Original>
+                <English>Show sleeve controls for UKAF SFSG Crye G4 uniforms.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_16AA">
+                <Original>Enable 16AA PCS Uniforms</Original>
+                <English>Enable 16AA PCS Uniforms</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_16AA_DESC">
+                <Original>Show sleeve and glove controls for 16AA PCS uniforms.</Original>
+                <English>Show sleeve and glove controls for 16AA PCS uniforms.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_SOUNDS">
+                <Original>Enable Foley Sounds</Original>
+                <English>Enable Foley Sounds</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_ENABLE_SOUNDS_DESC">
+                <Original>Play local cloth and glove handling sounds when using the interaction.</Original>
+                <English>Play local cloth and glove handling sounds when using the interaction.</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_SOUND_VOLUME">
+                <Original>Foley Volume</Original>
+                <English>Foley Volume</English>
+            </Key>
+            <Key ID="STR_TRF_UKAF_ACE_SG_SETTING_SOUND_VOLUME_DESC">
+                <Original>Playback volume for local sleeve and glove sounds.</Original>
+                <English>Playback volume for local sleeve and glove sounds.</English>
+            </Key>
+        </Container>
+    </Package>
+</Project>

@@ -1,0 +1,9 @@
+name = "[TRF] UKAF ACE Sleeves & Gloves";
+author = "OpenAI Codex & Darojax";
+tooltip = "[TRF] UKAF ACE Sleeves & Gloves";
+tooltipOwned = "[TRF] UKAF ACE Sleeves & Gloves";
+overview = "ACE self-interaction addon for the [TRF] United Kingdom Armed Forces - Equipment Mod.";
+overviewText = "Adds ACE self-interactions for supported TRF UKAF uniforms so players can adjust sleeve and glove variants locally in game.";
+overviewFootnote = "Requires CBA_A3, ACE3, and [TRF] United Kingdom Armed Forces - Equipment Mod.";
+hideName = 0;
+hidePicture = 1;
