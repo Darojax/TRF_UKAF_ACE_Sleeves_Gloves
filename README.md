@@ -102,36 +102,3 @@ This produces, inside `@TRF_UKAF_ACE_Sleeves_Gloves\`:
 
 > The **private** signing key lives in `_private/signing/` and is git-ignored on
 > purpose — keep it secret and never commit it.
-
-### Verifying an updated build in-game
-
-1. Rebuild with Option A or B.
-2. In the Arma 3 launcher, enable CBA_A3, ACE3, the TRF UKAF base mod, and
-   `@TRF_UKAF_ACE_Sleeves_Gloves`.
-3. Start a quick mission, put on a supported UKAF uniform, and open the ACE
-   self-interaction menu — the sleeve/glove options should reflect your changes.
-
-## Releasing to the Steam Workshop
-
-1. Produce a signed build with Option B above.
-2. Upload the `@TRF_UKAF_ACE_Sleeves_Gloves` folder with **Arma 3 Publisher**
-   (part of Arma 3 Tools). Provide a preview image in Publisher.
-3. After the first upload, record the Workshop item ID:
-
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File .\tools\set_workshop_id.ps1 -PublishedId 1234567890
-   ```
-
-   This writes `@TRF_UKAF_ACE_Sleeves_Gloves\meta.cpp`.
-4. To re-sign already-built PBOs with the same key without repacking:
-
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File .\tools\sign_release.ps1
-   ```
-
-Publisher and the signing tools are not bundled in this repo; they come from
-Arma 3 Tools.
-
-## Authors
-
-OpenAI Codex & Darojax
